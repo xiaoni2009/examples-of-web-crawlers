@@ -23,7 +23,7 @@
 1. [点击这里下载][1]下载chrome浏览器
 2. 查看chrome浏览器的版本号，[点击这里下载][2]对应版本号的chromedriver驱动
 3. pip安装下列包
-    - [x] pip install selenium
+    - [x] pip3 install selenium
 4. [点击这里][3]登录微博，并通过微博绑定淘宝账号密码
 5. 在main中填写chromedriver的绝对路径
 6. 在main中填写微博账号密码
@@ -54,8 +54,8 @@ weibo_password = "改成你的微博密码"
 1. [点击这里下载][1]下载chrome浏览器
 2. 查看chrome浏览器的版本号，[点击这里下载][2]对应版本号的chromedriver驱动
 3. pip安装下列包
-    - [x] pip install selenium
-    - [x] pip install pyquery
+    - [x] pip3 install selenium
+    - [x] pip3 install pyquery
 4. [点击这里][3]登录微博，并通过微博绑定淘宝账号密码
 5. 在main中填写chromedriver的绝对路径
 6. 在main中填写微博账号密码
@@ -91,8 +91,8 @@ weibo_password = "改成你的微博密码"
 1. [点击这里下载][1]下载chrome浏览器
 2. 查看chrome浏览器的版本号，[点击这里下载][2]对应版本号的chromedriver驱动
 3. pip安装下列包
-    - [x] pip install selenium
-    - [x] pip install pyquery
+    - [x] pip3 install selenium
+    - [x] pip3 install pyquery
 4. [点击这里][3]登录微博，并通过微博绑定淘宝账号密码
 5. 在main中填写chromedriver的绝对路径
 6. 在main中填写微博账号密码
@@ -142,8 +142,8 @@ weibo_password = "改成你的微博密码"
 ### 使用教程
 
 1. pip安装下列包
-- [x] pip install wxpy
-- [x] pip install requests
+- [x] pip3 install wxpy
+- [x] pip3 install requests
 
 2. 设置以下内容
 - [x] 设置config.ini相关信息
@@ -217,8 +217,8 @@ from contextlib import closing
 1. 打开[http://chromedriver.storage.googleapis.com/index.html][9]，根据自己的操作系统下载对应的chromedriver
 2. 打开当前面目录下的**<u>getMovieInRankingList.py</u>**，定位到第59行，将`executable_path=/Users/bird/Desktop/chromedriver.exe`修改成你自己的chromedriver路径
 3. 打开pycharm，依次安装以下包
-- pip install Pillow
-- pip install selenium
+- pip install3 Pillow
+- pip install3 selenium
 
 ### 演示图片
 
@@ -334,9 +334,9 @@ from contextlib import closing
 # 跳转到当前目录
 cd 目录名
 # 先卸载依赖库
-pip uninstall -y -r requirement.txt
+pip3 uninstall -y -r requirement.txt
 # 再重新安装依赖库
-pip install -r requirement.txt
+pip3 install -r requirement.txt
 # 开始运行
 python generate_wx_data.py
 ```
@@ -344,15 +344,15 @@ python generate_wx_data.py
 ### 如何打包成二进制可执行文件
 ```bash
 # 安装pyinstaller
-pip install pyinstaller
+pip3 install pyinstaller
 # 跳转到当前目录
 cd 目录名
 # 先卸载依赖库
-pip uninstall -y -r requirement.txt
+pip3 uninstall -y -r requirement.txt
 # 再重新安装依赖库
-pip install -r requirement.txt
+pip3 install -r requirement.txt
 # 更新 setuptools
-pip install --upgrade setuptools
+pip3 install --upgrade setuptools
 # 开始打包
 pyinstaller generate_wx_data.py
 ```
