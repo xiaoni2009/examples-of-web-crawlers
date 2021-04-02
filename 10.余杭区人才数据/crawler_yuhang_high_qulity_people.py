@@ -29,7 +29,7 @@ def crawler_one_page_data(pageId):
     return responseJson
 
 def read_file(path):
-    f = open('/tmp/test.txt')
+    f = open(path)
     data = f.read()
     f.close()
     return data
